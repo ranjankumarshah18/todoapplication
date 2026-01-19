@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ranjankumarshah189/todofrontend:latest
+        image: ranjankumarshah189/my-app:1.0
         imagePullPolicy: Always
         env:
           - name: REACT_APP_BACKEND_URL
